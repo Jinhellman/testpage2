@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>B2C</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <!--bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--bootstrap style-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Font awasome-->
+    <script src="https://kit.fontawesome.com/2fdbdff8d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/pricing.css">
+    <link rel="stylesheet" href="css/bpg-arial.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+
+  <section id="price-calculator">
+
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#">
+        <img src="images/whiteLogo22.png" style="width:9rem; height:7.6875rem;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="dts-icon fas fa-caret-square-down"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class = "navbar-nav">
+          <li class=" nav-item">
+            <a class="nav-link nav-a" href="index.html">მთავარი</a>
+          </li>
+        </ul>
+        <ul class = "navbar-nav">
+          <li class=" nav-item">
+            <a class="nav-link nav-a" href="aboutUS.html">ჩვენს შესახებ</a>
+          </li>
+        </ul>
+        <ul class = "navbar-nav">
+          <li class=" nav-item">
+            <a class="nav-link nav-a" href="pricing.html">ღირებულება</a>
+          </li>
+        </ul>
+        <ul class = "navbar-nav">
+          <li class=" nav-item">
+            <a class="nav-link nav-a" href="logIn.html">სასტუმროს შექმნა</a>
+          </li>
+        </ul>
+        <ul class = "navbar-nav">
+          <li class=" nav-item">
+            <a class="nav-link nav-a" href="contact.html">კონტაქტი</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav  ml-auto "id="dts">
+          <div class="Nav-link dropdown ">
+            <button class="language-btn1 btn btn-md btn-dark btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="width:100px; height:38px; margin:5px 10px 0 0;">
+              <i class="fas fa-globe-europe"></i>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">ქართული</a>
+              </div>
+            </button>
+          </div>
+        </ul>
+      </nav>
+        <h1 class="price">ღირებულება</h1>
+        <div class="price-box4 col-lg-7 container">
+          <div class="price-box1 row">
+            <div class="price-box2 col-lg-12">
+                <a onclick="myFunction1()"class="number-icon" ><span class="pricing-h2">1</span><span class="pricing-p p1">თვე<span style="visibility:hidden;">იi</span></span></a>
+                <a onclick="myFunction2()"class="number-icon" ><span class="pricing-h2">6</span><span class="pricing-p p2" >თვე<span style="visibility:hidden;">იi</span></span></a>
+                <a onclick="myFunction3()"class="number-icon" ><span class="pricing-h2">1</span><span class="pricing-p p3">წელი</span></a>
+                <a onclick="myFunction4()"class="number-icon" ><span class="pricing-h2">2</span><span class="pricing-p p4">წელი</span></a>
+                <a onclick="myFunction5()"class="number-icon" ><span class="pricing-h2">3</span><span class="pricing-p p5">წელი</span></a>
+                <a onclick="myFunction6()"class="number-icon" ><span class="pricing-h2">5</span><span class="pricing-p p6">წელი</span></a>
+                <a onclick="myFunction7()"class="infinity-icon" ><i class="pricing-i fas fa-infinity"></i></a>
+
+            </div>
+        </div>
+        <div class="price-calc row">
+          <div class="col-lg-6">
+            <span style="color:#fff";>ღირებულება</span>
+            <h3 class="minus-price" style="visibility:hidden";>000</h3>
+            <h1 class="price-1">₾ 99</h1>
+          </div>
+          <div class="col-lg-6">
+            <span class="price-3" style="visibility:hidden ";>ფასდაკლება</span>
+            <h3 class="minus-none">0000</h3>
+            <h1 class="price-2" style="visibility:hidden";>-0%</h1>
+          </div>
+        </div>
+      </div>
+<script src="pricing.js" charset="utf-8"></script>
+
+
+
+<section id="footer">
+    <hr class="footer-hr">
+    <p class="webName-p">ehotelspace all Rights reserved</p>
+
+</section>
+</body>
+  </html>
